@@ -1,0 +1,14 @@
+# Test invalid negative integers.
+java -ea jump61.Main
+None
+===#1===
+manual Blue
+start
+6 6
+size -1
+set -1 6 2 r
+set 6 6 3 r
+move -2
+dump
+quit
+===#2===

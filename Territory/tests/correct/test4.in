@@ -1,0 +1,15 @@
+# Simple 2x2 test with two instances of the
+# staff program playing against each other.
+java -ea jump61.Main
+java -ea jump61.Main
+===#1===
+size 2
+auto red
+manual blue
+start
+%mr
+%ib...
+===#2===
+size 2
+start
+%ir...

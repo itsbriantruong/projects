@@ -1,0 +1,11 @@
+--------------------------------------------------------------
+To run this program, type (without additional arguments):
+
+java jump61/Main
+
+This program currently does not support any arguments.
+
+Please refer to the "help" command in the program for a list
+
+of commands that are available for use inside the program.
+--------------------------------------------------------------

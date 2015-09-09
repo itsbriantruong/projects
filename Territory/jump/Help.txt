@@ -1,0 +1,34 @@
+Commands may be typed in any mixture of case. However, this program does
+not accept abbreviations for commands. The commands themselves must be
+typed with the same letters as given below. Arguments must also be of
+proper format as shown below (their case does not matter as well).
+
+Commands:
+<row> <column> This places a spot of the current player's color on the
+               given row and column of the board (must provide integers).
+               Rows are in the range (1, size of board] and columns
+               similarly follow (as the board is a square).
+clear          Abandons the current game (if there is one in progress) and
+               clears the board to its starting position (all square neutral).
+               Since playing is stopped, it will not resume until it is called
+               again.
+quit           Quit game.
+auto <P>       Stop any current game. Player, given by <P> (either Red or Blue),
+               will become an automated (AI) player when the game (re)starts.
+               Blue is set to an AI by default.
+manual <P>     Stop any current game. Player, given by <P> (either Red or Blue),
+               will become a manual player (moves are taken in from the terminal)
+               when the game (re)starts. Red is set to manual by default.
+set <r> <c> <n> <color>
+               Stop any current game. Place <n> spots of the given <color>
+               (denoted by: 'B','b','R', or 'r') onto the square located at
+               row <r>, column <c>. When <n> is 0, <color> is ignored and
+               the square is cleared. <r> <c> must be a valid move.
+size <N>       Stop any current game. Clear the board to its initial
+               configurations, and set the size of the board to <N> squares.
+               The board itself contains N x N squares relative to <N>.
+               Any given <N> < 0 will ignored.
+move <N>       Stop any current game. Set the number of the next move to
+               <N>, where <N> is a number greater than or equal to 1.
+dump           Print the current state of the board in a standard format.
+help           Prints this message with information on each command.

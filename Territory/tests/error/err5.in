@@ -1,0 +1,14 @@
+# Test valid command trailings to make sure
+# the program does not explode.
+java -ea jump61.Main
+None
+===#1===
+test
+manual Blue
+start x
+1 2 error
+1 1 am i still playing?
+# this is amazing
+dump
+quit
+===#2===

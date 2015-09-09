@@ -1,0 +1,9 @@
+# Test the SET command
+java -ea jump61.Main
+None
+===#1===
+set 3 3 2 r
+set 3 4 4 b
+set 6 1 2 r
+dump
+===#2===

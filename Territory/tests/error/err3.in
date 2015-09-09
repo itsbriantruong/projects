@@ -1,0 +1,13 @@
+# Test of commands without their arguments.
+java -ea jump61.Main
+None
+===#1===
+size
+move 2
+manual Blue
+start
+2 2
+move
+dump
+quit
+===#2===

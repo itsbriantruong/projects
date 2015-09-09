@@ -1,0 +1,17 @@
+# Simple 2x2 test with both players manual.
+# Test to see that several moves of a fully
+# manual game works properly.
+java -ea jump61.Main
+None
+===#1===
+size 2
+manual blue
+start
+1 1
+1 2
+1 1
+1 2
+2 1
+dump
+quit
+===#2===

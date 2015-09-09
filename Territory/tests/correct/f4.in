@@ -1,0 +1,15 @@
+# Jumping with more neighbors
+java -ea jump61.Main
+None
+===#1===
+size 4
+set 2 2 1 r
+set 2 3 1 r
+set 3 3 4 r
+set 3 2 1 r
+manual blue
+start
+3 3
+dump
+quit
+===#2===

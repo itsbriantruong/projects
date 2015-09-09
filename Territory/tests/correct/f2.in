@@ -1,0 +1,18 @@
+# Test for move change.
+# Blue player gets first turn.
+java -ea jump61.Main
+None
+===#1===
+size 2
+set 1 1 2 b
+set 1 2 2 b
+set 2 1 2 b
+set 2 2 2 b
+manual blue
+dump
+move 20
+start
+1 1
+%eb
+quit
+===#2===

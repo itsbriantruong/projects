@@ -1,0 +1,16 @@
+# Test of unknown command. Program should not crash, and boards should be
+# correct. In this case no moves should be on the board.
+java -ea jump61.Main
+None
+===#1===
+size 3
+manual Blue
+start
+1x 1
+zap
+-1 1
+1 1
+x x
+dump
+quit
+===#2===

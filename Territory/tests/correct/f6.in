@@ -1,0 +1,15 @@
+# Check if size is correctly
+# resizing the boards.
+java -ea jump61.Main
+None
+===#1===
+size 4
+size 3
+size 4
+dump
+size 10
+size 4
+size 9
+size 5
+dump
+===#2===

@@ -1,0 +1,14 @@
+We are going to have a little bit of fun with endnotes. 
+Since it's easy to write a short endnote like this:\endnote{You passed the short endnote.} since it's all in one line. 
+
+However once we get into multi-line endnotes, things start to get a little
+trickier. Like here's one for instance:\endnote{Congratulations, 
+you passed a two-line endnote} Here is some following text. 
+
+What if it's more than two lines though? Then we might get unexpected 
+results.\endnote{Congrats, you passed a many line endnote. The next thing
+to make sure is that you can put an endnote in the middle of your text
+and have it still process correctly. However, my code isn't ready for that
+quite yet.}
+
+Results:
